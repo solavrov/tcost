@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: tcost\nType: Package\nTitle: Spread cost calculator\nVersion: 0.1.0\nAuthor: Stanislav Lavrov\nMaintainer: Stanislav Lavrov <2slavrov@gmail.com>\nDescription: Calculate spread costs \nLicense: FREE\nEncoding: UTF-8\nLazyData: true\nImports: akima\nRoxygenNote: 6.0.1\n",
+    "created" : 1511276310678.000,
+    "dirty" : false,
+    "encoding" : "WINDOWS-1251",
+    "folds" : "",
+    "hash" : "1374189158",
+    "id" : "D2FFFF40",
+    "lastKnownWriteTime" : 1511276541,
+    "last_content_update" : 1511276541,
+    "path" : "C:/R/projects/tcost/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}
