@@ -6,12 +6,12 @@
 #' terms - terms of bonds;
 #' volumes - trade volumes
 #'
-#' @param file Names of csc data files without extansion
+#' @param file Names of csv data files
 #' @param instrument Names of instruments
 #'
 #' @return Liquidity data object
 #' @export
-loadLiquidity <- function(file = c("liq_data/liq_t", "liq_data/liq_b"),
+loadLiquidity <- function(file = c("liq_data/liq_t.csv", "liq_data/liq_b.csv"),
                           instrument = c("T", "B")) {
 
   liq <- list()
@@ -21,7 +21,7 @@ loadLiquidity <- function(file = c("liq_data/liq_t", "liq_data/liq_b"),
   for (i in 1:len) {
 
     m <- as.matrix(
-      read.csv(paste0(file[i],".csv"), header = FALSE)
+      read.csv(file[i], header = FALSE)
       )
 
     d1 <- dim(m)[1]

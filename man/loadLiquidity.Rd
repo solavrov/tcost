@@ -4,11 +4,11 @@
 \alias{loadLiquidity}
 \title{Load liquidity data from files}
 \usage{
-loadLiquidity(file = c("liq_data/liq_t", "liq_data/liq_b"),
+loadLiquidity(file = c("liq_data/liq_t.csv", "liq_data/liq_b.csv"),
   instrument = c("T", "B"))
 }
 \arguments{
-\item{file}{Names of csc data files without extansion}
+\item{file}{Names of csv data files}
 
 \item{instrument}{Names of instruments}
 }
